@@ -918,6 +918,6 @@ sup {
 }
 @media (max-width: 640px) and (orientation: landscape) {
   .trends__box {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
   }
 }
