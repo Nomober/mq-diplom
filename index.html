@@ -12,6 +12,17 @@
       <div class="container">
         <div class="header__nav">
           <a href="#0"><img src="svg/noemi-logo.svg" alt="Logo" class="logo" /></a>
+          <div class="header__burger">
+            <a href="#0" class="burger">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="33px" height="33px" viewBox="0 0 48 48">
+                <g>
+                  <path d="M42,12a2,2,0,0,1-2,2H8a2,2,0,0,1-2-2H6a2,2,0,0,1,2-2H40a2,2,0,0,1,2,2Z" />
+                  <path d="M42,24a2,2,0,0,1-2,2H8a2,2,0,0,1-2-2H6a2,2,0,0,1,2-2H40a2,2,0,0,1,2,2Z" />
+                  <path d="M42,36a2,2,0,0,1-2,2H8a2,2,0,0,1-2-2H6a2,2,0,0,1,2-2H40a2,2,0,0,1,2,2Z" />
+                </g>
+              </svg>
+            </a>
+          </div>
           <nav class="nav">
             <ul class="nav__list">
               <li class="nav__item"><a href="#0" class="nav__link">Главная</a></li>
@@ -27,7 +38,7 @@
       </div>
     </header>
     <section class="trends">
-      <h2 class="header__trends">Сейчас в тренде</h2>
+      <h2 class="section__header">Сейчас в тренде</h2>
       <div class="trends__box">
         <div class="trends__card garden">
           <div class="trend__content">
@@ -236,25 +247,80 @@
               </ul>
             </section>
           </aside>
-          <footer class="footer">
-            <address class="social">
-              <ul class="social__list">
-                <li class="social__item">
-                  <a href="#0" class="social__link dribbble"><span class="visually-hidden">Переход по ссылке на dribbble</span></a>
-                </li>
-                <li class="social__item">
-                  <a href="#0" class="social__link pinterest"><span class="visually-hidden">Переход по ссылке на pinterest</span></a>
-                </li>
-                <li class="social__item tumblr">
-                  <a href="#0" class="social__link tumblr"><span class="visually-hidden">Переход по ссылке на tumblr</span></a>
-                </li>
-              </ul>
-            </address>
-            <div class="copyright">
-              <a href="#0" class="copyright__link">Copyright © 2009–2019 City Blog LLC.</a>
-            </div>
-          </footer>
         </div>
+        <section class="products">
+          <h2 class="section__header">Наши изделия</h2>
+          <div class="products__block">
+            <div class="product__card">
+              <picture>
+                <source srcset="images/shop-item-desk1.jpg" media="(min-width: 1200px)" />
+                <source srcset="images/shop-item-tablet1.jpg" media="(min-width: 641px) and (max-width: 1200px)" />
+                <source srcset="images/shop-item-mobile1.jpg" media="(max-width: 640px)" />
+                <img src="images/shop-item-desk1.jpg" alt="Подушки" class="product__img" />
+              </picture>
+              <div class="product__content">
+                <h3 class="product__name">Подушки на диван</h3>
+                <p class="product__info">Набор из двух подушек с модными принтами. Видео о создании <a class="product__link" href="#0">здесь</a></p>
+                <div class="product__price-block">
+                  <span class="product__price-after">1000 &#8381;</span>
+                  <span class="product__price">800 &#8381;</span>
+                </div>
+                <button class="product__button">В магазин</button>
+              </div>
+            </div>
+            <div class="product__card">
+              <picture>
+                <source srcset="images/shop-item-desk2.jpg" media="(min-width: 1200px)" />
+                <source srcset="images/shop-item-tablet2.jpg" media="(min-width: 641px) and (max-width: 1200px)" />
+                <source srcset="images/shop-item-mobile2.jpg" media="(max-width: 640px)" />
+                <img src="images/shop-item-desk2.jpg" alt="Зайчик" class="product__img" />
+              </picture>
+              <div class="product__content">
+                <h3 class="product__name">Кукла «Зайчик»</h3>
+                <p class="product__info">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="product__link" href="#0">весенняя серия постов</a> в блоге и несколько подкастов.</p>
+                <div class="product__price-block">
+                  <span class="product__price">3500 &#8381;</span>
+                </div>
+                <button class="product__button">В магазин</button>
+              </div>
+            </div>
+            <div class="product__card">
+              <picture>
+                <source srcset="images/shop-item-desk3.jpg" media="(min-width: 1200px)" />
+                <source srcset="images/shop-item-tablet3.jpg" media="(min-width: 641px) and (max-width: 1200px)" />
+                <source srcset="images/shop-item-mobile3.jpg" media="(max-width: 640px)" />
+                <img src="images/shop-item-desk3.jpg" alt="Рамка" class="product__img" />
+              </picture>
+              <div class="product__content">
+                <h3 class="product__name">Шестиугольная рамка</h3>
+                <p class="product__info">Необычная рамка для украшения дома из видео <a class="product__link" href="#0">«Как сделать рамку из подручных средств за 30 минут»</a></p>
+                <div class="product__price-block">
+                  <span class="product__price-after">500 &#8381;</span>
+                  <span class="product__price">400 &#8381;</span>
+                </div>
+                <button class="product__button">В магазин</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+          <address class="social">
+            <ul class="social__list">
+              <li class="social__item">
+                <a href="#0" class="social__link dribbble"><span class="visually-hidden">Переход по ссылке на dribbble</span></a>
+              </li>
+              <li class="social__item">
+                <a href="#0" class="social__link pinterest"><span class="visually-hidden">Переход по ссылке на pinterest</span></a>
+              </li>
+              <li class="social__item tumblr">
+                <a href="#0" class="social__link tumblr"><span class="visually-hidden">Переход по ссылке на tumblr</span></a>
+              </li>
+            </ul>
+          </address>
+          <div class="copyright">
+            <a href="#0" class="copyright__link">Copyright © 2009–2019 City Blog LLC.</a>
+          </div>
+        </footer>
       </div>
     </div>
   </body>
