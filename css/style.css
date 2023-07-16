@@ -852,6 +852,19 @@ sup {
     font-size: 9px;
   }
 
+  .popup__radio {
+    width: 30px;
+    height: 30px;
+  }
+  .popup__radio:checked {
+    width: 30px;
+    height: 30px;
+  }
+
+  .popup__radio-block {
+    gap: 17px;
+  }
+
   .header {
     background-image: url(../images/banner-bg-tablet.jpg);
   }
@@ -951,6 +964,34 @@ sup {
     font-size: 8px;
   }
 
+  .popup {
+    width: 330px;
+    min-height: 550px;
+  }
+
+  .popup__header {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+
+  .popup__form {
+    margin-top: 26px;
+  }
+
+  .popup__radio {
+    width: 25px;
+    height: 25px;
+  }
+  .popup__radio:checked {
+    width: 25px;
+    height: 25px;
+  }
+
+  .popup__close {
+    right: -8px;
+    top: -31px;
+    width: 40px;
+  }
   .header {
     background-image: url(../images/banner-mobile.jpg);
   }
