@@ -916,8 +916,8 @@ sup {
     margin-top: 48px;
   }
 }
-/* @media (max-width: 640px) and (orientation: landscape) {
+@media (max-width: 640px) and (orientation: landscape) {
   .trends__box {
     grid-template-columns: repeat(2, 1fr);
   }
-} */
+}
